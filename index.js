@@ -1,88 +1,88 @@
 //  1 (1dan n gacha)----------------------------------
 
-for (let n = 1; n <= 20; n++) {
-  console.log(n);
-}
+// for (let n = 1; n <= 20; n++) {
+//   console.log(n);
+// }
 
 //-------------------------------------------------------------
 
 // 2 (just yoki toq ) -----------------
 
-var n = 26;
-console.log(n % 2 == 0 ? "juft" : "toq");
+// var n = 26;
+// console.log(n % 2 == 0 ? "juft" : "toq");
 
 //-------------------------------------------------------------
 
 // 3 juft raqamlar yig'indisi------------------------
 
-for (let n = 0; n <= 20; n += 2) {
-  if (n % 2 === 0) i += n;
-}
-console.log(i);
+// for (let n = 0; n <= 20; n += 2) {
+//   if (n % 2 === 0) i += n;
+// }
+// console.log(i);
 
-var n = 10;
-var sum = 0;
-let r = 0;
+// var n = 10;
+// var sum = 0;
+// let r = 0;
 
-while (i < n) {
-  i += 2;
-  sum += i;
-  console.log(sum);
-}
+// while (i < n) {
+//   i += 2;
+//   sum += i;
+//   console.log(sum);
+// }
 
 //-------------------------------------------------------------
 
 // 4 (ijobiy, salbiy  va nol)---------------------------
 
-var n = 0;
+// var n = 0;
 
-if (n > 0) console.log("positive");
-else if (n == 0) console.log("zero");
-else console.log("negative");
+// if (n > 0) console.log("positive");
+// else if (n == 0) console.log("zero");
+// else console.log("negative");
 
 //-------------------------------------------------------------
 
 // 5 kara jadvali----------------------------------------
 
-let k = 6;
+// let k = 6;
 
-for (var i = 1; i <= 10; i++) {
-  console.log(`${k} * ${i} = ${k * i} `);
-}
+// for (var i = 1; i <= 10; i++) {
+//   console.log(`${k} * ${i} = ${k * i} `);
+// }
 
 // (5) while orqali--------------------------------
 
-let b = 5;
-let i = 1;
-while (i <= 10) {
-  console.log(i * b);
-  i++;
-}
+// let b = 5;
+// let i = 1;
+// while (i <= 10) {
+//   console.log(i * b);
+//   i++;
+// }
 
 //(5) do while orqali----------------------------
 
-let i = 1;
-let e = 5;
+// let i = 1;
+// let e = 5;
 
-do {
-  console.log(i * e);
-  i++;
-} while (i <= 10);
+// do {
+//   console.log(i * e);
+//   i++;
+// } while (i <= 10);
 
 //-------------------------------------------------------------
 
 // 6 sonlar yig'indisi-------------------------------------
 
-var number = 1234;
+// var number = 1234;
 
-number = String(number);
+// number = String(number);
 
-var sum = 0;
+// var sum = 0;
 
-for (var i = 0; i < number.length; i++) {
-  sum += Number(number[i]);
-}
-console.log(sum);
+// for (var i = 0; i < number.length; i++) {
+//   sum += Number(number[i]);
+// }
+// console.log(sum);
 
 //-------------------------------------------------------------
 
@@ -90,24 +90,24 @@ console.log(sum);
 
 // 8 Factorial sonlar 7!=1*2*3*4*5*6*7----------------------
 
-let n = 4;
-var i = 1;
+// let n = 4;
+// var i = 1;
 
-for (let s = 1; s <= n; s++) {
-  i *= s;
-  console.log(i);
-}
+// for (let s = 1; s <= n; s++) {
+//   i *= s;
+//   console.log(i);
+// }
 
 // (8) while orqli---------------------------------------
 
-var n = 10;
-var sum = 1;
-let i = 1;
+// var n = 10;
+// var sum = 1;
+// let i = 1;
 
-while (i <= n) {
-  console.log((sum *= i));
-  i++;
-}
+// while (i <= n) {
+//   console.log((sum *= i));
+//   i++;
+// }
 
 // (8) do while orqli---------------------------------------
 
@@ -148,7 +148,7 @@ while (i <= n) {
 //   console.log(s);
 // }
 
-//var sonlar yig'indisi-------------------------
+// sonlar yig'indisi-------------------------
 
 // var number = 1234;
 
@@ -247,82 +247,82 @@ while (i <= n) {
 
 // //  1-----------------------------
 
-function massiv(list) {
-  var massiv = {};
+// function massiv(list) {
+//   var massiv = {};
 
-  switch (list.metod) {
-    case "uzgartir":
-      massiv[list.key] = list.value;
-      break;
-    case "qush":
-      massiv[list.key] = list.value;
-      break;
-    case "delete":
-      delete list.key;
-      break;
-  }
-  return massiv;
-}
+//   switch (list.metod) {
+//     case "uzgartir":
+//       massiv[list.key] = list.value;
+//       break;
+//     case "qush":
+//       massiv[list.key] = list.value;
+//       break;
+//     case "delete":
+//       delete list.key;
+//       break;
+//   }
+//   return massiv;
+// }
 
-console.log(massiv({ metod: "uzgartir", key: "vages", value: "apple" }));
-console.log(massiv({ metod: "qush", key: "vages", value: "apple" }));
-console.log(massiv({ metod: "delete", key: "vages", value: "apple" }));
+// console.log(massiv({ metod: "uzgartir", key: "vages", value: "apple" }));
+// console.log(massiv({ metod: "qush", key: "vages", value: "apple" }));
+// console.log(massiv({ metod: "delete", key: "vages", value: "apple" }));
 
 // --------------------------------------------------------
 
 // 2
 
-var shopping = {
-  apple: {
-    count: 5,
-    price: 1200,
-  },
-  book: {
-    count: 2,
-    price: 700,
-  },
-  potate: {
-    count: 6,
-    price: 7000,
-  },
-};
+// var shopping = {
+//   apple: {
+//     count: 5,
+//     price: 1200,
+//   },
+//   book: {
+//     count: 2,
+//     price: 700,
+//   },
+//   potate: {
+//     count: 6,
+//     price: 7000,
+//   },
+// };
 
-shopping.case = {
-  count: 1,
-  price: 550,
-};
+// shopping.case = {
+//   count: 1,
+//   price: 550,
+// };
 
-var savat = Object.values(shopping);
-var sum = 0;
+// var savat = Object.values(shopping);
+// var sum = 0;
 
-for (var i = 0; i <= savat.length - 1; i++) {
-  sum += Number(savat[i].price) * Number(savat[i].count);
-}
-console.log(sum);
+// for (var i = 0; i <= savat.length - 1; i++) {
+//   sum += Number(savat[i].price) * Number(savat[i].count);
+// }
+// console.log(sum);
 
 // --------------------------------------------------------
 
 // 3--------------------------------------------------
 
-function students(list) {
-  var students = {};
+// function students(list) {
+//   var students = {};
 
-  if (list.method === "create") {
-    students[
-      list.name
-    ] = `"ism"${list.name} "yosh"${list.age} "klass"${list.klass}`;
-  } else if (list.method === "update") {
-    students[
-      list.name
-    ] = `"ism"${list.name} "yosh"${list.age} "klass"${list.klass}`;
-  } else if (list.method === "delete") delete students[list.name];
+//   if (list.method === "create") {
+//     students[
+//       list.name
+//     ] = `"ism"${list.name} "yosh"${list.age} "klass"${list.klass}`;
+//   } else if (list.method === "update") {
+//     students[
+//       list.name
+//     ] = `"ism"${list.name} "yosh"${list.age} "klass"${list.klass}`;
+//   } else if (list.method === "delete") delete students[list.name];
 
-  return students;
-}
+//   return students;
+// }
 
-console.log(students({ method: "create", name: "Abbos", age: 18, klass: 8 }));
-console.log(students({ method: "update", name: "Talat", age: 19, klass: 9 }));
-console.log(students({ method: "delete", name: "Azim", age: 20, klass: 10 }));
+// console.log(students({ method: "create", name: "Abbos", age: 18, klass: 8 }));
+// console.log(students({ method: "update", name: "Talat", age: 19, klass: 9 }));
+// console.log(students({ method: "delete", name: "Azim", age: 20, klass: 10 }));
 
 //---------------------
 
@@ -466,81 +466,221 @@ console.log(students({ method: "delete", name: "Azim", age: 20, klass: 10 }));
 // 6---------------
 // Kutubxona
 
-var l_store = {
-  "Abu Ali Ibn Sino Kitobi": {
-    borrow_to: "",
-    borrow_caunt: 0,
-  },
-  "Al-Xorazmiy kitobu": {
-    borrow_to: "",
-    borrow_caunt: 0,
-  },
-  "Utgan Kunlar Kitobi": {
-    borrow_to: "",
-    borrow_caunt: 0,
-  },
-  "Yulduzli Tunlar Kitobi": {
-    borrow_to: "",
-    borrow_caunt: 0,
-  },
-  "Farobiyning Kitobi": {
-    borrow_to: "",
-    borrow_caunt: 0,
-  },
-};
+// var l_store = {
+//   "Abu Ali Ibn Sino Kitobi": {
+//     borrow_to: "",
+//     borrow_caunt: 0,
+//   },
+//   "Al-Xorazmiy kitobu": {
+//     borrow_to: "",
+//     borrow_caunt: 0,
+//   },
+//   "Utgan Kunlar Kitobi": {
+//     borrow_to: "",
+//     borrow_caunt: 0,
+//   },
+//   "Yulduzli Tunlar Kitobi": {
+//     borrow_to: "",
+//     borrow_caunt: 0,
+//   },
+//   "Farobiyning Kitobi": {
+//     borrow_to: "",
+//     borrow_caunt: 0,
+//   },
+// };
 
-function kutubxona(operation) {
-  var fount_book = l_store[operation.book_name];
+// function kutubxona(operation) {
+//   var fount_book = l_store[operation.book_name];
 
-  if (operation.type === "borrow" && typeof fount_book === "undefined") {
-    console.log("Book not fount");
-  } else if (operation.type === "borrow" && fount_book.borrow_to !== "") {
-    console.log("siz izlagan kitob boshqa odamda ");
-  } else if (operation.type === "borrow") {
-    l_store[operation.book_name] = {
-      borrow_to: operation.student_name,
-      borrow_caunt: fount_book.borrow_caunt + 1,
-    };
-  } else if (operation.type === "qaytarildi") {
-    l_store[operation.book_name] = {
-      borrow_to: "",
-      borrow_caunt: fount_book.borrow_caunt,
-    };
-  }
-  console.log(l_store);
+//   if (operation.type === "borrow" && typeof fount_book === "undefined") {
+//     console.log("Book not fount");
+//   } else if (operation.type === "borrow" && fount_book.borrow_to !== "") {
+//     console.log("siz izlagan kitob boshqa odamda ");
+//   } else if (operation.type === "borrow") {
+//     l_store[operation.book_name] = {
+//       borrow_to: operation.student_name,
+//       borrow_caunt: fount_book.borrow_caunt + 1,
+//     };
+//   } else if (operation.type === "qaytarildi") {
+//     l_store[operation.book_name] = {
+//       borrow_to: "",
+//       borrow_caunt: fount_book.borrow_caunt,
+//     };
+//   }
+//   console.log(l_store);
+// }
+
+// kutubxona({
+//   type: "borrow",
+//   student_name: "asadbek",
+//   book_name: "Farobiyning Kitobi",
+// });
+// kutubxona({
+//   type: "qaytarildi",
+//   student_name: "asadbek",
+//   book_name: "Farobiyning Kitobi",
+// });
+
+// kutubxona({
+//   type: "borrow",
+//   student_name: "azim",
+//   book_name: "Farobiyning Kitobi",
+// });
+// kutubxona({
+//   type: "qaytarildi",
+//   student_name: "azim",
+//   book_name: "Farobiyning Kitobi",
+// });
+
+// kutubxona({
+//   type: "borrow",
+//   student_name: "sardor",
+//   book_name: "Farobiyning Kitobi",
+// });
+
+// kutubxona({
+//   type: "borrow",
+//   student_name: "aziz",
+//   book_name: "Abu Ali Ibn Sino Kitobi",
+// });
+// //---------------------
+
+// let fruits = ["apple", "orange", "banana"];
+
+// fruits.map((valu, inde, arra) => {
+//   console.log(valu, inde, arra);
+// });
+
+// array masala
+
+// console.log(
+//   array.reduce((value, index) => {
+//     console.log(index, value);
+//     return value + index;
+//   })
+// );
+
+// 4. Kalit-qiymat juftliklari bilan ob'ektlar massivini yarating va aniq kalit-qiymat juftligi bilan ob'ektlarni filtrlang.
+// 5. Raqamlar massivini tuzing va massivdagi maksimal qiymatni toping.
+// 6. Satrlar massivini yarating va massivni alifbo tartibida tartiblang.
+// 7. Raqamlar massivini tuzing va massivdagi aniq sonning indeksini toping.
+// 8. Kalit-qiymat juftliklari bilan ob'ektlar massivini yarating va massivni ma'lum bir kalit asosida tartiblang.
+// 9. Ikkita sonlar massivi yarating va ularni bitta massivga birlashtiring.
+// 10. Satrlar massivini yarating va massivdan dublikatlarni olib tashlang.
+
+// 1. Raqamlar massivini yarating va barcha elementlarning yig'indisini qaytaring.
+// var array = [1, 2, 12, 4, 5];
+// var sumtoq = 0;
+// var sumjuft = 0;
+
+// for (var i = 0; i < array.length; i++) {
+//   if (array[i] % 2 === 0) {
+//     sumjuft += array[i];
+//   } else {
+//     sumtoq += array[i];
+//   }
+// }
+// console.log(`juft sonlar: ${sumjuft}, toq sonlar: ${sumtoq}`);
+
+// 2. Satrlar massivini yarating va eng uzun satr uzunligini qaytaring.
+// for
+// var array = [1, 2, 12, 4, 5];
+
+// console.log(
+//   array.filter((value) => {
+//     return value % 2 === 0;
+//   })
+// );
+
+// console.log(
+//   array.filter((value) => {
+//     return value % 2 === 1;
+//   })
+// );
+
+// 3. Sonlar massivini tuzing va barcha elementlarning o‘rtacha qiymatini toping.
+
+// var array = [1, 2, 3, 4, 5];
+
+// 4. Kalit-qiymat juftliklari bilan ob'ektlar massivini yarating va aniq kalit-qiymat juftligi bilan ob'ektlarni filtrlang.
+
+// 5. Raqamlar massivini tuzing va massivdagi maksimal qiymatni toping.
+
+// var array = [1, 2, 3, 4, 5];
+
+// 6. Satrlar massivini yarating va massivni alifbo tartibida tartiblang.
+
+// var name = ["sardor", "azim", "asadbek", "farruxbek", "dilshodbek"];
+// 1
+// console.log(name.sort());
+
+// 2
+// console.log(
+//   name.sort((a, b) => {
+//     b - a;
+//   })
+// );
+
+// 7. Raqamlar massivini tuzing va massivdagi aniq sonning indeksini toping.
+// var array = [1, 2, 3, 4, 5];
+
+// console.log(
+//   array.map((value, index, array) => {
+//     return index;
+//   })
+// );
+
+// 8. Kalit-qiymat juftliklari bilan ob'ektlar massivini yarating va massivni ma'lum bir kalit asosida tartiblang.
+var student = [
+  {
+    name: "Azimbek",
+    age: 24,
+  },
+  {
+    name: "Kozim",
+    age: 14,
+  },
+  {
+    name: "Asadbek",
+    age: 4,
+  },
+  {
+    name: "Sardor",
+    age: 54,
+  },
+];
+
+// student.map((value, index, array) => [console.log(value)]);
+
+for (let i = 0; i < student.length; i++) {
+  let ages = student[i].age;
+  console.log(ages);
 }
 
-kutubxona({
-  type: "borrow",
-  student_name: "asadbek",
-  book_name: "Farobiyning Kitobi",
-});
-kutubxona({
-  type: "qaytarildi",
-  student_name: "asadbek",
-  book_name: "Farobiyning Kitobi",
-});
+// console.log(ages);
+// 9. Ikkita sonlar massivi yarating va ularni bitta massivga birlashtiring.
 
-kutubxona({
-  type: "borrow",
-  student_name: "azim",
-  book_name: "Farobiyning Kitobi",
-});
-kutubxona({
-  type: "qaytarildi",
-  student_name: "azim",
-  book_name: "Farobiyning Kitobi",
-});
+// var num1 = [1, 2, 3, 4];
+// var num2 = [8, 7, 6, 5];
 
-kutubxona({
-  type: "borrow",
-  student_name: "sardor",
-  book_name: "Farobiyning Kitobi",
-});
+// console.log([...num1, ...num2]);
 
-kutubxona({
-  type: "borrow",
-  student_name: "aziz",
-  book_name: "Abu Ali Ibn Sino Kitobi",
-});
-// //---------------------
+// 10. Satrlar massivini yarating va massivdan dublikatlarni olib tashlang.
+
+// var name = ["sardor", "azim", "asadbek", "farruxbek", "dilshodbek"];
+
+// name.pop();
+// name.shift();
+// name.push(100);
+// name.unshift("start");
+
+// console.log(name);
+
+//
+
+// function sum(uch, tort) {
+//   console.log(uch, tort);
+//   return (uch += tort);
+// }
+
+// sum(3, 4);
